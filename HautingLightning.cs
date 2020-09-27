@@ -3,7 +3,10 @@ using RoR2;
 
 namespace PurpleLeprecaun
 {
-    public class HauntingLightning
+
+    [BepInDependency("com.bepis.r2api")]
+    [BepInPlugin("com.thatsSickLOL.HauntingLightning", "Haunting Lightning", "1.0.0")]
+    public class HauntingLightning : BaseUnityPlugin
     {
         public void Awake()
         {
